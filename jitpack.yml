@@ -1,3 +1,2 @@
 install:
-  FILE="-Dfile=nunchuk-android-nativesdk-arm64_v8a-release.aar"
-  mvn install:install-file $FILE -DgroupId=io.nunchuk.android -DartifactId=nativesdk-arm64_v8a -Dversion=1.1.54 -Dpackaging=aar -DpomFile=pom.xml
+  mvn install:install-file -Dfile=nunchuk-android-nativesdk-arm64_v8a-release.aar -DgroupId=io.nunchuk.android -DartifactId=nativesdk-arm64_v8a -Dversion=1.1.54 -Dpackaging=aar -DpomFile=pom.xml
