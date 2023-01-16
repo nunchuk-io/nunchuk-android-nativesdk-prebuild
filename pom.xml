@@ -5,5 +5,12 @@
   <groupId>io.nunchuk.android</groupId>
   <artifactId>nativesdk-arm64_v8a</artifactId>
   <version>1.1.55</version>
-  <packaging>aar</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.6.4</version>
+    </dependency>
+  </dependencies>
 </project>
