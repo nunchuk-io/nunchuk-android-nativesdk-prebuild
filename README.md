@@ -1,6 +1,6 @@
 [![](https://jitpack.io/v/nunchuk-io/nunchuk-android-nativesdk-prebuild.svg)](https://jitpack.io/#nunchuk-io/nunchuk-android-nativesdk-prebuild)
 
-Add it in your root build.gradle at the end of repositories:
+Step 1. Add it in your root build.gradle at the end of repositories:
 
 ```
 	allprojects {
@@ -13,7 +13,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 ```
-    dependencies {
-        implementation 'com.github.nunchuk-io:nunchuk-android-nativesdk-prebuild:Tag'
-    }
+	dependencies {
+		implementation 'com.github.nunchuk-io:nunchuk-android-nativesdk-prebuild:Tag'
+	}
 ```
